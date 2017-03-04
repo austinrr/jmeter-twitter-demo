@@ -29,4 +29,6 @@ Windows
 
 
 ### Notes
-This API test is admittedly fairly simple, but it does execute some positive and negative cases.  The real challange here was getting OAuth to work.  Currently this example used a bearer key I generted using a fresh twitter account connected to dev.twitter.com application portal.  Initailly I tried using OAuth 1.1a but I ran into some problems with the JMeter plugin and the signpost JAR, so Oauth 2.0 turned out to be much simpler.  I would like to also point out that JMeter can be run headless and generate a variely of reports.  It's also possible to run distributed.  The main drawback is that the open source natures results in some instability and a reliance on plugins for some functionality.    
+This API test is admittedly fairly simple, but it does execute some positive and negative cases.  The real challange here was getting OAuth to work.  Currently this example used a bearer key I generted using a fresh twitter account connected to dev.twitter.com application portal.  Initailly I tried using OAuth 1.1a but I ran into some problems with the JMeter plugin and the signpost JAR, so Oauth 2.0 turned out to be much simpler.  I would like to also point out that JMeter can be run headless and generate a variely of reports.  It's also possible to run distributed.  The main drawback is that the open source natures results in some instability and a reliance on plugins for some functionality.
+
+--P.S. I will be invalidating my twitter bearer token in a few days since this is public--
